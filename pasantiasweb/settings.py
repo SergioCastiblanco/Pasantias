@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'pasantiasweb.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'pasantias',
+        'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': 'pasantias123',
         'HOST': 'pasantias.cmyideuqh4jv.us-east-1.rds.amazonaws.com',
